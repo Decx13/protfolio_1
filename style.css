@@ -98,8 +98,8 @@ display:none;
     transition:.3s;
 }
 .header-area.sticky {
+     top: 0;
     position: fixed;
-    top: 0;
     background-color: #ff014f;
 }
 .background {
@@ -620,7 +620,7 @@ color:#ff014f;
             transition: .3s;
         }
         .header ul.open{
-        top:140px;
+        top:60px;
         }
         .header ul li a {
             margin: 5px 0;
