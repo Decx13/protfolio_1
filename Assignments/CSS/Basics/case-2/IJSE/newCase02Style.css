@@ -1,0 +1,153 @@
+/**@author : Hasitha Lakshan
+Project :Portfolio
+Date :8/25/2022
+Time :1:30 PM
+*/
+
+/*====HEDER=======*/
+
+/*img*/
+header > img {
+    width: 190px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/*header box*/
+header {
+    background: white;
+    box-shadow: 0px -1px 8px 2px #1c1717e8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 73px;
+    z-index: 2;
+}
+
+/*header nav*/
+header > nav {
+    position: absolute;
+    right: 40px;
+    top: 0;
+}
+
+/*list with line*/
+header > nav > ul > li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(46, 41, 41, 0.96);
+    font-size: 19px;
+    border-right: 2px solid rgba(46, 41, 41, 0.58);
+
+}
+
+/*line for left*/
+header > nav > ul > li:first-child {
+    border-left: 2px solid rgba(46, 41, 41, 0.58);
+}
+
+/*======MAIN======*/
+
+main {
+    position: relative;
+    margin-top: 73px;
+}
+
+
+main>section:first-child{
+    border: 2px solid   black;
+}
+
+/*side nav box*/
+main > nav {
+    position: absolute;
+    background: #24327f;
+    top: 0;
+    bottom: 0;
+    width: 270px;
+}
+
+main > nav > ul > li {
+    color: white;
+    list-style: none;
+    padding-top: 40px;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+
+
+header ul > li > i {
+    padding-right: 6px;
+}
+
+header ul > li > a {
+    color: rgba(46, 41, 41, 0.96);
+    text-decoration: none;
+}
+
+main ul > li > i {
+    padding-right: 15px;
+    font-size: 20px;
+    color: #ccffcd;
+}
+
+main ul > li > a {
+    color: #ccffcd;
+    text-decoration: none;
+}
+
+main > section {
+    margin-left: 270px;
+    padding: 10px;
+}
+
+main > section p {
+    color: #433636f5;
+}
+
+
+footer {
+    height: 60px;
+    background: #363030;
+}
+
+footer > h4 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #e5e5e5;
+    font-weight: lighter;
+}
+
+main > section > section:first-child {
+    height: 300px;
+    position: relative;
+}
+
+main > section > section:first-child > div {
+    height: 100%;
+    width: calc(100% / 3);
+    position: absolute;
+}
+
+main > section > section:first-child > div:nth-child(1) {
+    background: url("../assets/gg.gif");
+    background-size: 139px;
+    left: 0;
+}
+
+main > section > section:first-child > div:nth-child(2) {
+    background: url("../assets/gg.gif");
+    background-size: 450px;
+    left: calc(100%/3);
+}
+
+main > section > section:first-child > div:nth-child(3) {
+    background: url("../assets/gg.gif");
+    background-size: 139px;
+    right: 0;
+}
