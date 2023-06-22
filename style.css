@@ -518,10 +518,10 @@ color:#ff014f;
     display: flex;
     justify-content:space-evenly;
 }
-.single-assignment {
-    padding: 20px;
-    flex-basis: 20%;
+.assignment-area{
+padding: 100px 0;
 }
+
 .single-assignment {
     text-align: center;
         background: #fff;
@@ -557,6 +557,11 @@ a.button {
  .single-assignment h2 {
      margin-bottom: 10px;
  }
+ .assignments{
+     display: flex;
+     flex-wrap:wrap;
+     justify-content: space-between;
+ }
 
 /* medium device */
  @media only screen and (min-width:992px) and (max-width:1200px){
@@ -583,6 +588,15 @@ a.button {
             .single-project{
             margin-bottom:10px;
             flex-basis:48.33%;
+            }
+
+          .single-assignment {
+              flex-basis: 22%;
+              margin-bottom:10px;
+          }
+
+           a.button{
+            margin-right:10px;
             }
 }
 
@@ -639,6 +653,11 @@ a.button {
         .single-project{
         flex-basis:31.33%
         }
+         .single-assignment {
+             margin-right: 10px;
+             flex-basis: 22%;
+
+         }
 }
 /* mobile devices */
 @media only screen and (max-width:767px){
@@ -709,6 +728,17 @@ a.button {
            flex-basis:100%;
            margin-bottom:20px;
            }
+
+         .single-assignment {
+             margin-bottom: 10px;
+             flex-basis: 100%;
+         }
+        a.button{
+        margin-right:10px;
+        }
+
+
+
 
 }
 
