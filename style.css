@@ -571,7 +571,17 @@ a.button {
     .single-skill{
             padding:15px 5px;
             margin-top:5px;
+              margin-bottom:10px;
             width: 144px;
+            flex-basis:32%
+            }
+            img.skill-image {
+                padding: 30px 20px;
+                margin-bottom: 30px;
+                width: 150px;
+                height: 170px;
+                position: relative;
+                left: 5px;
             }
             img {
                 width: 500px;
@@ -648,7 +658,9 @@ a.button {
         .single-skill{
         padding:15px 5px;
         margin-top:5px;
+        margin-bottom:10px;
         width: 144px;
+        flex-basis:32%
         }
         .single-project{
         flex-basis:31.33%
