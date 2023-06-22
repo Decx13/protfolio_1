@@ -655,7 +655,8 @@ a.button {
         }
          .single-assignment {
              margin-right: 10px;
-             flex-basis: 22%;
+             margin-bottom:10px;
+             flex-basis: 48%;
 
          }
 }
