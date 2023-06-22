@@ -671,6 +671,9 @@ a.button {
              flex-basis: 48%;
 
          }
+          a.button{
+            margin-right:10px;
+            }
 }
 /* mobile devices */
 @media only screen and (max-width:767px){
