@@ -9,6 +9,7 @@
 </head>
 <body>
 
+
 <header class="header-area">
     <div class="container">
         <div class="header">
@@ -28,7 +29,6 @@
         </div>
     </div>
 </header>
-
 <section class="background-area" style="" id="home">
     <div class="container">
         <div class="background">
@@ -63,7 +63,7 @@
                 <h5>about me</h5>
                 <h2>Tell What you Want,
                     I will Create It</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cum, deleniti, dolor ipsam maiores quaerat quia quibusdam, repellat repellendus reprehenderit repudiandae sed suscipit ut. Ducimus laudantium nam perspiciatis saepe vel?</p>
+                <p>As a full stack developer, I thrive in both front-end and back-end development. With a strong foundation in HTML, CSS, JavaScript, and server-side languages, I enjoy creating seamless and dynamic web applications. I am passionate about delivering high-quality solutions. Let's collaborate and bring your digital ideas to reality!</p>
                     <div class="about-info">
                      <ul>
                     <li><span>name</span>Mithila Narmada</li>
@@ -175,7 +175,7 @@
                 <div class="project-content">
                     <i class='bx bx-link-external' ></i>
                     <h4>Blue Ocean Hotel</h4>
-                    <p>hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh</p>
+                    <p>hotel management system using java</p>
                 </div>
             </div>
 
@@ -183,15 +183,15 @@
                 <div class="project-content">
                     <i class='bx bx-link-external' ></i>
                     <h4>Timber Shop</h4>
-                    <p>hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh</p>
+                    <p>this is my first sem final project and this one developed for timber shop using java and mvc model</p>
                 </div>
             </div>
 
             <div class="single-project" style="background-image:url('assests/img_2.png');">
                 <div class="project-content">
                     <i class='bx bx-link-external' ></i>
-                    <h4>Thogakade MVC</h4>
-                    <p>hhhhhhhhhhhhhhhhh hhhhhhhhhhhhhhh hhhhhhhhhhhhhhhhh</p>
+                    <h4>Thogakade</h4>
+                    <p>this one similar to pos system</p>
                 </div>
             </div>
         </div>
@@ -302,12 +302,12 @@
         <div class="contact">
             <div class="contact-form">
                 <h4>Leave A Msg Here</h4>
-                <form>
-                    <input type="text" placeholder="Name">
-                    <input type="email"  placeholder="Email" >
-                    <input type="text" placeholder="Subject">
-                    <textarea placeholder="Message"></textarea>
-                    <input type="submit" value="Send Message" class="btn">
+                <form onsubmit="sendEmail();reset(); return false;">
+                    <input type="text" placeholder="Name" id="name" required>
+                    <input type="email"  placeholder="Email" id="email" required>
+                    <input type="text" placeholder="Subject" id="subject">
+                    <textarea placeholder="Message" id="msg" required></textarea>
+                    <input type="submit" value="Send Message" class="btn" id="btn">
                 </form>
             </div>
             <div class="contact-info">
@@ -347,6 +347,7 @@
         <p>&copy; 2023. all rights reserved.</p>
     </div>
 </footer>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script src="main.js"></script>
 </body>

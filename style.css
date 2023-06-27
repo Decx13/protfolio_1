@@ -753,10 +753,24 @@ a.button {
         margin-right:20px;
         }
 
-
-
-
 }
+
+.loader{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.loader span{
+  display: inline-block;
+  width:6px;
+  height: 15px;
+  animation: vrtcl .7s alternate infinite;
+  background:#000;
+}
+
+
 
 
 
