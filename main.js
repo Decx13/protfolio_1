@@ -24,7 +24,8 @@ $(document).ready(function(){
                    Username : "mithilanarmadaliyanage@gmail.com",
                    Password : "0D47AAC1231FC87ED3A472F984858438A532",
                     To : 'mithilanarmadaliyanage@gmail.com',
-                    From : document.getElementById('email').value,
+                    From : 'narmadaempire99@gmail.com',
+
                     Subject : document.getElementById("subject").value,
                     Body : "Name: " + document.getElementById("name").value
                                     +"<br>Email: " + document.getElementById("email").value
